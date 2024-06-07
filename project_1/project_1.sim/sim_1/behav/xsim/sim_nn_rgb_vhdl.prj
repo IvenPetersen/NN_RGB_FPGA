@@ -1,0 +1,16 @@
+# compile vhdl design source files
+vhdl xil_defaultlib  \
+"../../../../../FPGA_generate/config.vhd" \
+"../../../../../FPGA_generate/control.vhd" \
+"../../../../../FPGA_plain/control.vhd" \
+"../../../../../FPGA_generate/multiplier.vhd" \
+"../../../../../FPGA_generate/sigmoid_IP.vhd" \
+"../../../../../FPGA_plain/sigmoid_IP.vhd" \
+"../../../../../FPGA_generate/neuron.vhd" \
+"../../../../../FPGA_plain/neuron.vhd" \
+"../../../../../FPGA_generate/nn_rgb.vhd" \
+"../../../../../FPGA_plain/nn_rgb.vhd" \
+"../../../../../FPGA_plain/sim_nn_rgb.vhd" \
+
+# Do not sort compile order
+nosort

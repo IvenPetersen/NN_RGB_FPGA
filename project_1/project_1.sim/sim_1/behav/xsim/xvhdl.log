@@ -1,0 +1,12 @@
+INFO: [VRFC 10-163] Analyzing VHDL file "G:/Users/ivenp/Documents/GitHub/NN_RGB_FPGA/FPGA_generate/config.vhd" into library xil_defaultlib
+INFO: [VRFC 10-163] Analyzing VHDL file "G:/Users/ivenp/Documents/GitHub/NN_RGB_FPGA/FPGA_generate/control.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'control'
+INFO: [VRFC 10-163] Analyzing VHDL file "G:/Users/ivenp/Documents/GitHub/NN_RGB_FPGA/FPGA_plain/control.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'control'
+INFO: [VRFC 10-163] Analyzing VHDL file "G:/Users/ivenp/Documents/GitHub/NN_RGB_FPGA/FPGA_generate/multiplier.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'multiplier'
+INFO: [VRFC 10-163] Analyzing VHDL file "G:/Users/ivenp/Documents/GitHub/NN_RGB_FPGA/FPGA_generate/sigmoid_IP.vhd" into library xil_defaultlib
+ERROR: [VRFC 10-2987] 'altera_mf_components' is not compiled in library 'altera_mf' [G:/Users/ivenp/Documents/GitHub/NN_RGB_FPGA/FPGA_generate/sigmoid_IP.vhd:41]
+INFO: [VRFC 10-3107] analyzing entity 'sigmoid_IP'
+ERROR: [VRFC 10-9458] unit 'sigmoid_ip' is ignored due to previous errors [G:/Users/ivenp/Documents/GitHub/NN_RGB_FPGA/FPGA_generate/sigmoid_IP.vhd:43]
+INFO: [VRFC 10-8704] VHDL file 'G:/Users/ivenp/Documents/GitHub/NN_RGB_FPGA/FPGA_generate/sigmoid_IP.vhd' is ignored due to errors
