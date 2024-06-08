@@ -39,7 +39,7 @@ fprintf('Starting Script \n')
 
 %=============== Constants Definition =================
 
-epochs = 800;   %Number of epochs you want to train the network
+epochs = 400;   %Number of epochs you want to train the network
 alpha = 0.00001;%Learning rate for the training process
 
 width=510; %Width of the picture you are working with
